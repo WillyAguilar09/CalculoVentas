@@ -47,6 +47,23 @@ class Ventas
             Console.WriteLine("1. Coca Cola 25Lps");
             Console.WriteLine("2. Fresca 23 Lps");
             Console.WriteLine("3. Canada Dry 28 Lps");
+            producto = Console.ReadLine();
+            if (producto == "1")
+            {
+                precio = 110;
+            }
+            else if (producto == "2")
+            {
+                precio = 90;
+            }
+            else if (producto == "3")
+            {
+                precio = 60;
+            }
+            else
+            {
+                Console.WriteLine("no tenemos el producto seleccionado");
+            }
         }
         else if (categoria == "3")
         {
